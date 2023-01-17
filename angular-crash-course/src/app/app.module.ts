@@ -11,8 +11,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ModalComponent } from './Components/modal/modal.component';
 import { CreateProductComponent } from './Components/create-product/create-product.component';
 import { FocusDirective } from './directives/focus.directive';
-import { ProductPageComponent } from './components/pages/product-page/product-page.component';
-import { AboutPageComponent } from './components/pages/about-page/about-page.component';
+import { ProductPageComponent } from './Components/pages/product-page/product-page.component';
+import { AboutPageComponent } from './Components/pages/about-page/about-page.component';
+import { NavigationComponent } from './Components/navigation/navigation/navigation.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { AboutPageComponent } from './components/pages/about-page/about-page.com
     CreateProductComponent,
     FocusDirective,
     ProductPageComponent,
-    AboutPageComponent
+    AboutPageComponent,
+    NavigationComponent
   ],
   imports: [
     BrowserModule,
